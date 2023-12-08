@@ -10,9 +10,9 @@
         filled
         v-model="name"
         label="你的名字 *"
-        hint="你的名字"
+        hint="名字和姓氏"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || '你的名字']"
+        :rules="[ val => val && val.length > 0 || '请填写信息...']"
       />
       <q-input
         filled
